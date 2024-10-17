@@ -17,7 +17,7 @@ const PincodeForm: React.FC = () => {
         const postOffices = data[0].PostOffice;
         let pincodeHtml = '';
         for (const postOffice of postOffices) {
-          pincodeHtml += `
+          pincodeHtml += ` 
             <hr>
             <h3>Name: ${postOffice.Name}</h3>
             <h3>Postal Code: ${postOffice.Pincode}</h3>
